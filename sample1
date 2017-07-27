@@ -1,0 +1,12 @@
+function image_proc5
+
+%
+%画像処理
+%画像を反転させる
+%
+
+A=imread('https://pbs.twimg.com/profile_images/378800000220029324/fe66faeca20115da8566e51d83447ead_400x400.jpeg');
+
+B=A(:,end:-1:1,:)
+image(B)
+
